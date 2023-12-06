@@ -1,0 +1,47 @@
+# Xcode
+.DS_Store
+*/.DS_Store
+*.swp
+*~.nib
+
+# CocoaPods
+Pods/
+*.xcworkspace
+xcuserdata/
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+Packages/
+Package.pins
+.build/
+
+# Swift build products
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app.dSYM
+
+# IDE files
+*.xcodeproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace
+!*.xcuserdatad/
+
+# macOS
+build/
+DerivedData/
+
+# User-specific
+*.xcuserstate
+*.swiftpm
+*.playground
+
+# Miscellaneous
+*.log
+*.gz
+
+# Ignore local configuration files that might need to be set up separately for each user
+# Add your own specific files here if needed
